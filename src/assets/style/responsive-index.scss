@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 14px !important;
+  }
+  div{
+    box-sizing: border-box;
+  }
+  .header-content {
+    background: #ffffff;
+  }
+  .cor{
+    font-size: 15px !important;
+  }
+  .top {
+    margin-top: 70px;
+    background: url('../../assets/img/bg-tree.png');
+    background-size: auto 100% !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    color: #ffffff;
+  }
+  .img-box{
+    text-align: left !important;
+  }
+  .img-box img{
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .middle-content{
+    padding: 80px 0 0 !important;
+  }
+  .slogan {
+    font-size: 35px !important;
+    letter-spacing: 5px !important;
+  }
+  .slogan-en {
+    font-size: 24px !important;
+  }
+  .desc {
+    font-size: 14px !important;
+    line-height: 30px !important;
+  }
+  .xs-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .client-list {
+    padding-left: 20px !important;
+  }
+  h1 {
+    font-size: 28px !important;
+  }
+  .org-name {
+    font-size: 16px !important;
+  }
+  .case-name {
+    font-size: 18px !important;
+  }
+  .plan-title, .plan-price {
+    font-size: 25px !important;
+  }
+  .plan-version {
+    min-height: auto !important;
+    padding-bottom: 66px;
+  }
+  .function-name {
+    font-size: 18px !important;
+  }
+  .function-grid {
+    margin-bottom: 50px;
+  }
+  .plan-started-btn{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #questionnaire-design, #quality-watching, #statistics-analysis {
+    padding-top: 120px;
+    margin-top: -70px !important;
+  }
+}

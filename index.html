@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>锐研·云访谈</title>
+    <link rel="icon" href="static/title.ico" type="image/x-icon">
+  </head>
+  <style>
+    .el-message-box__message p {
+      margin: 0;
+      line-height: 24px;
+      font-size: 12px;
+    }
+    .el-message-box__btns .el-button--small {
+      padding: 5px 13px;
+    }
+    .el-message-box__btns .el-button--small span {
+      display: inline-block;
+      font-size: 12px !important;
+    }
+    .el-tooltip__popper {
+      position: absolute;
+      border-radius: 4px;
+      padding: 10px;
+      z-index: 2000;
+      font-size: 12px;
+      line-height: 1.2;
+      min-width: 10px;
+      max-width: 50%;
+      background-color: #fff !important;
+      word-wrap: break-word;
+    }
+    .el-tooltip__popper.is-light {
+      background: #fff;
+      border: 1px solid #2e83d3 !important;
+      background-color: #fff !important;
+    }
+  </style>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=q8b18hgUW3UCLoyXtKk7l4w7"></script>
+  <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+  <script type="text/javascript">
+    var Ip = returnCitySN['cip']
+    var cityname = returnCitySN['cname']
+    window.localStorage.setItem('ip', Ip)
+    window.localStorage.setItem('city', cityname)
+  </script>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+</html>
